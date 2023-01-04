@@ -1,0 +1,766 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif, 'Pacifico';
+   
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+ nav ul{
+    display: flex;
+    list-style: none;
+  
+
+} 
+
+nav ul li a{ 
+    justify-content: center;
+    align-items: center;
+    padding: 10px 45px;
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+
+.nav-container{
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em;
+
+}
+
+
+
+#active{
+    color: black;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    padding: 10px 0;
+}
+
+label{
+    font-family: 'Pacifico';
+}
+
+nav button{
+    padding: 8px 20px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+.shape-img{
+    width: 100px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    height: 100px;
+    padding-right: 1em;
+}
+
+
+.header-container-pri h1{
+font-weight: bolder;
+padding-bottom: 1em;
+
+}
+
+.header-container-pri p{
+    font-size: 14px;
+}
+
+.header-container-pri button{
+    background-color: black;
+    padding: 8px 40px;
+    color: rgb(202, 197, 197);
+    margin: 2em 0;
+}
+
+
+.header-col-1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.header-col-1 div{
+    padding-left:  0;
+    margin-right: 1em;
+}
+
+
+.hero-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2.5em;
+    
+}
+
+.hero-container h2{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+
+}
+
+.hero-container  button {
+    color: aliceblue;
+    background-color: black;
+    margin: 1.5em 0;
+
+}
+
+
+.hero-container p{
+    font-size: 14px;
+
+}
+
+
+
+
+.hero-container-img img{
+    width: 300px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+.shape{
+    width: 100px;
+    background-color: black;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.header-container-section{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    align-items: center;
+   
+}
+
+.header-container-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2.5em;;
+}
+
+.about-container{
+    padding: 2.5em;
+
+}
+
+.about-container-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .about-container-blog{
+    padding: 2.5em;
+} */
+
+.about-container-div button{
+    background-color: black;
+    padding: 10px 40px;
+    color: white;
+}
+
+
+.about-container-div  h4{
+    padding: .5em 0;
+    font-weight: bold;
+}
+
+
+.about-container-gallery img{
+    width: 240px;
+    padding: 0 1.9em;
+
+}
+
+
+.about-container-gallery{
+    padding: 5em 0;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.round-box{
+    height: 70px;
+    width: 800px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 390px;
+    left: 199px;
+}
+
+.height{
+height: 200px;
+}
+
+.about-container-blog{
+    /* padding: 2.5em; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-container-blog h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: .5em 0;
+}
+
+.about-container-blog p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.about-container-blog button{
+    background-color: black;
+    padding: 8px 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.blog-image-div{
+    padding: 0 4em;
+    margin:  1em;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 320px;
+}
+
+
+.blog-image-div p{
+    font-size: 14px;
+}
+
+.blog-image-div h4{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+.testimonial-container p{
+    font-size: 16px;
+}
+
+.testimonial-container h2{
+    padding: 1em 0;
+    margin: 2em 0;
+}
+
+
+.testimonial-container h5{
+    padding: .5em 0;
+    margin-top:  0;
+} 
+
+.testimonial-sections{
+    width: 200px;
+    height: 265px;
+    background-color: whitesmoke;
+    margin: 0 1em;
+    border-radius: 10px;
+    padding-right: 5px;
+    
+}
+
+ion-icon{
+    color: rgb(249, 179, 50);
+    position: relative;
+    left: 290px;
+}
+
+.testimonial-sections-div{
+    display: flex;
+    flex-direction: row;
+    margin: 3em 0;
+} 
+
+
+.testimonial-sections img{
+    width:60px;
+    height: 60px;
+    border-radius: 70px;
+}
+
+.testimonial-sections p{
+    font-size: 10px;
+    color: rgb(45, 44, 44);
+}
+
+/* .testimonial-sections div{
+    position: relative;
+    left: 0;
+    top: 40px;
+} */
+
+
+
+.blog-image-div p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+.about-container-blog-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 0 6emm;
+   
+}
+
+/* .about-container-blog-div{
+    padding: 2.5em;
+/* }  */
+
+
+.about-container-blog-images img{
+    width: 300px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    right: 4em;
+}
+
+.about-container-blog-images h4{
+    font-weight: bold;
+    padding: .5em  0;
+}
+
+.about-container-blog-images p{
+    font-size: 14px;
+
+}
+
+.about-container-blog-images button{
+    margin: 3em 0;
+    background-color: white;
+    border: none;
+    
+}
+
+
+.search-wrapper{
+    position: relative;
+    width: 950px;
+    height: 70px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 3em;
+
+}
+
+form div p{
+   font-size: 12px;
+}
+
+form div{
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    float: left;
+    width: 210px;
+    top: 10px;
+    height: 15px;
+}
+
+.search-wrapper input{
+    width: 350px;
+    height: 45px;
+    position: relative;
+    left: 365px;
+    /* padding-right: 20px; */
+    box-sizing: border-box;
+
+} 
+
+
+.search-wrapper button{
+    overflow: visible;
+    position: absolute;
+    display: block;
+    right: 25px;
+    top: 25px;
+    border: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+.footer-container{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 2.5em;
+}
+
+.footer-section-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-section-wrapper h2{
+    font-family: 'Pacifico';
+    font-weight: 200;
+}
+
+.copyright{
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.copyright-wrapper{
+    display:inline;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.copyright div p{
+    font-size: 12px;
+}
+
+.copyright ion-icon{
+    background-color: white;
+    border-radius: 70%;
+    color: black;
+    font-size:8px;
+    width: 25px;
+    height: 10px;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+    
+    .nav-container{
+        justify-content: center;
+        align-items: center;
+        padding: 2.5em;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li a{ 
+        justify-content: center;
+        align-items: center;
+        padding: 5px 8px;
+        color: gray;
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+    
+    .logo{
+        font-size:1rem ;
+    }
+    
+    
+    nav button{
+        padding: 5px 12px;
+        
+    }
+    
+    
+    .about-container{
+        padding: 2.5em;
+    
+    }
+
+    .blog-image-div{
+        padding: 0 2em;
+        margin:  2em;
+        background-color: whitesmoke;
+        width: 190px;
+        height: 210px;
+       
+    }
+
+    .blog-image-div p{
+        font-size: 10px;
+        line-break: none;
+    }
+
+    .blog-image-div h4{
+        font-size: 13px;
+    }
+
+    .about-container-blog-images img{
+        width: 190px;
+        border-bottom-right-radius: 40px;
+        position: relative;
+        right: 2em;
+
+    }
+
+    .hero-container-img img{
+        width: 200px;
+        border-bottom-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+
+    .height{
+        height: 120px ;
+    }
+
+
+
+     .testimonial-sections{
+        width: 350px;
+        height: 300px;
+        background-color: whitesmoke;
+        margin: 2em;
+        border-radius: 10px;
+        padding: 10px;
+        
+    } 
+
+
+
+
+    ion-icon{
+        color: rgb(249, 179, 50);
+        position: relative;
+        right: 100px;
+        font-size: 10px;
+    }
+
+
+    
+.search-wrapper{
+    position: relative;
+    width: 600px;
+    height: 60px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+.search-wrapper input{
+    width: 200px;
+    height: 35px;
+    position: relative;
+    left: 160px;
+    
+
+}
+
+
+.search-wrapper button{
+    position: absolute;
+    font-size: 10px;
+    right: 20px;
+    top: 25px;
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.about-container-gallery img{
+    width: 180px;
+    padding: 0 1.9em;
+
+}
+
+.round-box{
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 283px;
+    left: 100px;
+}
+
+ 
+}
+
+
+
+@media screen and (max-width:1200px) {
+    
+    .nav-container{
+        justify-content: center;
+        align-items: center;
+        padding: 2.5em;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li a{ 
+        justify-content: center;
+        align-items: center;
+        padding: 7px 20px;
+        color: gray;
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+    
+    
+    .logo{
+        font-size:1rem ;
+    }
+    
+    
+    nav button{
+        padding: 5px 14px;
+        
+    }
+
+     
+    .about-container{
+        padding: 2.5em;
+    
+    }
+    
+    
+     .about-container-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+
+    ion-icon{
+        color: rgb(249, 179, 50);
+        position: relative;
+        font-size: 11px;
+        left: 180px;
+    }
+
+    .testimonial-sections{
+        width: 300px;
+        height: 270px;
+        background-color: whitesmoke;
+        margin: 1.5em;
+        border-radius: 10px;
+        padding-left: 10px;
+        
+    }
+    
+    
+}
+/* 
+@media screen and (max-width:900px) {
+    
+       
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li a{ 
+        justify-content: center;
+        align-items: center;
+        padding: 2px 5px;
+        color: gray;
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+
+
+
+    .testimonial-sections{
+        width: 180px;
+        height: 500px;
+        background-color: whitesmoke;
+        margin: .5em;
+        border-radius: 10px;
+        padding: 0;
+        
+    }
+
+    ion-icon{
+        color: rgb(249, 179, 50);
+        position: relative;
+        font-size: 8px;
+        right: 70px;
+    }
+}
