@@ -58,6 +58,14 @@ nav ul li a{
     padding: 10px 0;
 }
 
+.logos{
+    display: none;
+}
+.logostwo{
+    display: none;
+    
+
+}
 label{
     font-family: 'Pacifico';
 }
@@ -529,7 +537,9 @@ form div{
     .logo{
         font-size:1rem ;
     }
-    
+    .logos{
+        display: none;
+    }
     
     nav button{
         padding: 5px 12px;
@@ -683,6 +693,9 @@ form div{
     .logo{
         font-size:1rem ;
     }
+     .logos{
+        display: none;
+     }
     
     
     nav button{
@@ -724,15 +737,23 @@ form div{
     
     
 }
-/* 
-@media screen and (max-width:900px) {
+
+@media screen and (max-width:600px) {
     
-       
+      *{
+        align-items: center;
+        align-content: center;
+        
+
+
+
+      } 
     nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+    
     }
     
     nav ul li a{ 
@@ -742,10 +763,108 @@ form div{
         color: gray;
         text-decoration: none;
         font-size: 14px;
+        display: none;
         
     }
+    .logo{
+        display: none;
+    }
+    .logos{
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: black;
+     padding: 10px 0;
+     display: contents;
+    
+    }
+    .logostwo{
+        display: contents;
+        
+    }
+    .logostwo img{
+        margin-left: 10em;
 
 
+    }
+    nav ul button{
+        display: none;
+    }
+    .header-container-pri h1 p {
+        margin-bottom: 8em;
+    }
+    .header-container-pri button{
+        width: 350px;
+    }
+    .hero-container{
+        background-color: white;
+        color: black;
+        margin-top: 3em;
+    }
+    .hero-container a button{
+        background-color: white;
+        color: black;
+        border: none;
+    }
+    .header-col-1{display: flex;
+    flex-direction: row;
+    position: relative;top: 25em;
+    }
+    .about-container-button{
+        margin-top: 2em;
+        
+    }
+    .about-container-gallery{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    
+    }
+    .about-container-blog-images{
+
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .about-container-blog{
+        gap: 2em;
+    }
+    .search-wrapper{
+        position: relative;
+        width: 950px;
+        height: 70px;
+        padding: 15px;
+        background-color: black;
+        border-radius: 10px;
+        margin-right: 3em;
+    
+    }
+    .search-wrapper input{
+        width: 350px;
+        height: 45px;
+        position: relative;
+        left: 365px;
+        /* padding-right: 20px; */
+        box-sizing: border-box;
+    
+    } 
+    
+    
+    .search-wrapper button{
+        overflow: visible;
+        position: absolute;
+        display: block;
+        right: 25px;
+        top: 25px;
+        border: 0;
+        cursor: pointer;
+        height: 30px;
+        width: 110px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+    
+    
 
     .testimonial-sections{
         width: 180px;
@@ -761,6 +880,12 @@ form div{
         color: rgb(249, 179, 50);
         position: relative;
         font-size: 8px;
-        right: 70px;
+        right: 25px;
+    }
+    .footer-container{
+    width: 990px;
+    margin-top: 5em;
+
+
     }
 }
