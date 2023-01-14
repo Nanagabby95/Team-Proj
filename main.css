@@ -58,6 +58,14 @@ nav ul li a{
     padding: 10px 0;
 }
 
+.logos{
+    display: none;
+}
+.logostwo{
+    display: none;
+    
+
+}
 label{
     font-family: 'Pacifico';
 }
@@ -529,7 +537,9 @@ form div{
     .logo{
         font-size:1rem ;
     }
-    
+    .logos{
+        display: none;
+    }
     
     nav button{
         padding: 5px 12px;
@@ -683,6 +693,9 @@ form div{
     .logo{
         font-size:1rem ;
     }
+     .logos{
+        display: none;
+     }
     
     
     nav button{
@@ -724,15 +737,23 @@ form div{
     
     
 }
-/* 
-@media screen and (max-width:900px) {
+
+@media screen and (max-width:600px) {
     
-       
+      *{
+        align-items: center;
+        align-content: center;
+        
+
+
+
+      } 
     nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+    
     }
     
     nav ul li a{ 
@@ -742,25 +763,248 @@ form div{
         color: gray;
         text-decoration: none;
         font-size: 14px;
+        display: none;
         
+    }
+    .logo{
+        display: none;
+    }
+    .logos{
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: black;
+     padding: 10px 0;
+     display: contents;
+   
+    
+    }
+    .logostwo{
+        display: contents;
+        
+    }
+    .logostwo img{
+        margin-left: 10em;
+
+
+    }
+    nav ul button{
+        display: none;
+    }
+    .header-container-pri h1 p {
+        margin-bottom: 8em;
+    }
+    .header-container-pri-button{
+        width: 100%;
+    }
+    .hero-container{
+        background-color: white;
+        color: black;
+        margin-top: 3em;
+    }
+
+    .hero-container h2{
+        font-size: 30px;
+    }
+
+    .hero-container p{
+        font-size: 13px;
+    }
+
+    .hero-container a button{
+        background-color: white;
+        color: black;
+        border: none;
+    }
+
+    .header-container-sec{
+        width: 100%;
     }
 
 
 
+    .header-col-1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 25em;
+        left: 2em;
+
+    }
+    .about-container-button{
+        margin-top: 2em;
+        
+    }
+    .about-container-gallery{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        overflow: hidden;
+    
+    }
+
+    .round-box{
+        height: 50px;
+        width: 300px;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        bottom: 338px;
+        left: 30px;
+    }
+
+    
+    .testimonial-container h2{
+      margin-left: 4em;
+    }
+
+
+    .testimonial-container h5{
+        margin-left: 5.5em;
+      }
+
+    .about-container-blog-images{
+
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .about-container-blog{
+        gap: 2em;
+    }
+
+    .search-wrapper div{
+        width: 50%;
+        position: relative;
+        right: 10px;
+        font-size: 5px;
+        top: -10px;
+        
+        
+    }
+
+    
+    .search-wrapper div p{
+        font-size: 10px;
+    }
+
+
+    .search-wrapper{
+        position: relative;
+        /* width: 100%; */
+        width: 380px;
+        height: 70px;
+        padding: 15px;
+        background-color: black;
+        right: 55px;
+    
+    }
+
+
+    .about-container-gallery{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-container-blog{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+   
+
+/* 
+    .search-wrapper{
+        position: relative;
+        width: 950px;
+        height: 70px;
+        padding: 15px;
+        background-color: black;
+        border-radius: 10px;
+        margin-right: 3em;
+    
+    }
+    .search-wrapper input{
+        width: 350px;
+        height: 45px;
+        position: relative;
+        left: 365px;
+        /* padding-right: 20px; 
+        box-sizing: border-box; */
+
+
+
+
+ 
+
+    .about-container-gallery{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+
+    .about-container-gallery img{
+        width: 160px;
+        padding: 0 .5em;
+    
+    }
+
+    
+    
+    .search-wrapper button{
+        overflow: visible;
+        position: absolute;
+        display: block;
+        right: 7px;
+        top: 25px;
+        border: 0;
+        cursor: pointer;
+        height: 20px;
+        width: 40px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+    
+    
+
     .testimonial-sections{
-        width: 180px;
+        width: 220px;
         height: 500px;
         background-color: whitesmoke;
-        margin: .5em;
+        margin: 0 .3em;
         border-radius: 10px;
         padding: 0;
         
     }
 
+    .testimonial-sections img{
+        width: 40px;
+        width: 40px;
+        padding: 4px;
+        border-radius: 70%;
+    }
+
+    .testimonial-sections h5{
+        margin-left:  1em;
+        font-size: 10px;
+    }
+
+    .testimonial-sections p{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    
+
     ion-icon{
         color: rgb(249, 179, 50);
         position: relative;
-        font-size: 8px;
-        right: 70px;
+        font-size: 6px;
+        left: 45px;
+    }
+    .footer-container{
+    width: 100%;
     }
 }
