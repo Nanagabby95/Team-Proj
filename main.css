@@ -6,6 +6,10 @@
    
 }
 
+html{
+    padding: 0 !important;
+}
+
 
 
 
@@ -143,8 +147,21 @@ padding-bottom: 1em;
     color: aliceblue;
     background-color: black;
     margin: 1.5em 0;
-
 }
+
+.testimonial-stars{
+    width: 23vw;
+    height: 2vh;
+    99999999999999999999999999999999999
+}
+
+ion-icon{
+    color: rgb(249, 179, 50);
+    position: absolute;
+    right: 20px;
+}
+
+
 
 
 .hero-container p{
@@ -203,10 +220,6 @@ padding-bottom: 1em;
     flex-wrap: wrap;
 }
 
-/* .about-container-blog{
-    padding: 2.5em;
-} */
-
 .about-container-div button{
     background-color: black;
     padding: 10px 40px;
@@ -250,11 +263,10 @@ height: 200px;
 }
 
 .about-container-blog{
-    /* padding: 2.5em; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+   
 }
 
 .about-container-blog h3{
@@ -293,7 +305,18 @@ height: 200px;
     font-size: 1rem;
 }
 
+.about-container-blog{
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    
+}
 
+.testimonial-container{
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
 
 .testimonial-container p{
     font-size: 16px;
@@ -311,10 +334,10 @@ height: 200px;
 } 
 
 .testimonial-sections{
-    width: 200px;
+    width: 380px;
     height: 265px;
     background-color: whitesmoke;
-    margin: 0 1em;
+    margin: 2em 1em;
     border-radius: 10px;
     padding-right: 5px;
     
@@ -323,13 +346,16 @@ height: 200px;
 ion-icon{
     color: rgb(249, 179, 50);
     position: relative;
-    left: 290px;
+    left: 100px;
 }
 
 .testimonial-sections-div{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
     display: flex;
-    flex-direction: row;
-    margin: 3em 0;
+    padding: 0 !important;
+    /* margin: 3em 0; */
 } 
 
 
@@ -369,10 +395,19 @@ ion-icon{
    
 }
 
-/* .about-container-blog-div{
-    padding: 2.5em;
-/* }  */
+ .about-container-blog{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 
+}
+.about-container-blog-div p{
+font-weight: 100;
+}
+
+.about-container-blog-div  button{
+    margin-right: 2em;
+}
 
 .about-container-blog-images img{
     width: 300px;
@@ -406,7 +441,8 @@ ion-icon{
     padding: 15px;
     background-color: black;
     border-radius: 10px;
-    margin-right: 3em;
+    margin-right: 1em;
+    margin-bottom: 2em;
 
 }
 
@@ -489,8 +525,9 @@ form div{
     text-align: center;
 }
 
-.copyright div p{
-    font-size: 12px;
+.copyright div h6{
+    font-size: 10px;
+    padding: 1em;
 }
 
 .copyright ion-icon{
@@ -514,7 +551,6 @@ form div{
     .nav-container{
         justify-content: center;
         align-items: center;
-        padding: 2.5em;
     }
     
     nav{
@@ -547,10 +583,6 @@ form div{
     }
     
     
-    .about-container{
-        padding: 2.5em;
-    
-    }
 
     .blog-image-div{
         padding: 0 2em;
@@ -664,7 +696,13 @@ form div{
 
 
 
+
+
 @media screen and (max-width:1200px) {
+
+    *{
+        margin: 0;
+    }
     
     .nav-container{
         justify-content: center;
@@ -678,6 +716,9 @@ form div{
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
+
+    
     
     nav ul li a{ 
         justify-content: center;
@@ -716,6 +757,12 @@ form div{
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
+    .about-container-blog{
+        align-items: center;
+        justify-content: space-between;
+      
+      }
     
 
     ion-icon{
@@ -726,19 +773,23 @@ form div{
     }
 
     .testimonial-sections{
-        width: 300px;
+        width: 500px;
         height: 270px;
         background-color: whitesmoke;
-        margin: 1.5em;
+        /* margin: 1.5em; */
         border-radius: 10px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         
+    }
+
+    .testimonial-container{
+        width: 100vw !important;
     }
     
     
 }
 
-@media screen and (max-width:600px) {
+@media screen  and (max-width:600px) {
     
       *{
         align-items: center;
@@ -766,24 +817,30 @@ form div{
         display: none;
         
     }
+    nav div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
     .logo{
         display: none;
     }
+
     .logos{
      font-size: 1.5rem;
      font-weight: 400;
      color: black;
-     padding: 10px 0;
+     /* padding: 10px 0; */
      display: contents;
    
     
     }
     .logostwo{
-        display: contents;
+         display: flex;
         
     }
     .logostwo img{
-        margin-left: 10em;
+         margin-left: 10em;
 
 
     }
@@ -1002,9 +1059,13 @@ form div{
         color: rgb(249, 179, 50);
         position: relative;
         font-size: 6px;
-        left: 45px;
+        left: 40px;
     }
     .footer-container{
-    width: 100%;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 5px; */
+    font-size: 8px;
     }
 }
